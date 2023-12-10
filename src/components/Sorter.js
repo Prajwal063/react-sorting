@@ -18,7 +18,7 @@ const Sorter = () => {
 
   const handleSortClick = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/process-${sortingType}`, {
+      const response = await fetch(`https://array-sorting-go.onrender.com/process-${sortingType}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
